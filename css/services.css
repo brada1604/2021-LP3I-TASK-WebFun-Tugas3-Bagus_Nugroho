@@ -1,0 +1,80 @@
+body{
+	font-family: poppins;
+	background-image:url('../img/bg.jpg');
+	background-position:center;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+/*CSS untuk Header*/
+header{
+		background-color: #00c2bb;
+		color: white;
+		text-align: center;
+}
+
+header h1{
+	padding: 5px;
+	margin: 0px;
+}
+
+header h2{
+	margin-top: 0px;
+}
+/*CSS untuk Header - End*/
+	
+/*CSS untuk Nav*/	
+nav{
+	text-align: center;
+	border-bottom: 1px solid;
+}
+
+nav ul{
+	padding: 0px;
+	margin: 0px;	
+}
+
+nav li, nav a{
+	display: inline-block;
+}
+
+nav a{
+	color: black;
+	padding: 10px 15px;
+}
+
+nav a:hover{
+	
+	background-color: #dfeded;
+}
+/*CSS untuk Nav - End */	
+
+
+/*CSS untuk Section */	
+section{
+	margin: auto;
+	width: 80%;
+}
+
+section p{
+	text-align: justify;
+	padding: auto;
+}
+
+section a{
+	color: #00c9c2;
+}
+
+/*CSS untuk Section - End */	
+
+
+/*CSS untuk Footer */
+footer{
+	color: grey;
+	margin-top: 80px;
+	text-align: center;
+}
+/*CSS untuk Footer - End */
